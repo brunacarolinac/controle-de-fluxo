@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 133, 171);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.country-info {
+    margin-bottom: 15px;
+}
+
+.country-info label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.country-info span {
+    font-weight: normal;
+}
+
+.cidade {
+    text-align: center;
+}
+
+.cidade img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    max-height: 100%;
+}

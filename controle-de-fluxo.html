@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Controle de Fluxo</title>
+<body>
+    <h2><img src="travell.jpg"></h2>
+    <div class="container">
+        <form id="formulario">
+            <div class="form-group">
+                <label for="destino">ESCOLHA UM LUGAR PARA CONHECER:</label>
+                <div class="select">
+                <select id="destino" name="destino">
+                    <option value="paris">Paris</option>
+                    <option value="londres">Londres</option>
+                    <option value="nova-york">Nova York</option>
+                    <option value="toquio">Toquio</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ir">
+            </div>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <div id="loading" style="display: none;">Carregando...</div>
+
+    <script src="controle-de-fluxo.js"></script>
+</body>
+</html>
